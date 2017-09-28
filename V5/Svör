@@ -1,0 +1,17 @@
+1. getElementById er fljótlegast því það leitar ekki í gegnum DOM tréið. Það skippar tréinnu og finnur id beint.
+
+2. quertySelectorAll velur eitt eða fleirra element og skilar þeim öllum. DÆMI (var x = document.querySelectorAll(".Div_sem_verða_blá"); x[0].style.backgroundColor = "blue");
+
+3. Hvað er NodeList? Útskýrðu útfrá eftirfarandi kóðasýnidæmi, útskýrðu línu fyrir línu.
+	
+	var elements = document.getElementsByTagName('li'); // Selectar elementið "li"
+
+	if (elements.length > 0) // ef það eru fleirri en 0 object í elementinu þá fer eftirfarandi á stað
+	{
+ 	var el = elements[2]; // Nýtt var sem heitir el inniheldur þriðja stakið í elements arrayinu
+	el.className = 'cool'; // classname er breytt í cool
+	}
+
+4. getElementsByTagName velur öll elementinn með sama tagnafnið
+
+5. Hægt er að nota lykkjur til að komast hjá node vandamálunum sem verða til þegar auttpláss er skilið eftir í kóðanum.Whitespace getur skemt oft dom tréið

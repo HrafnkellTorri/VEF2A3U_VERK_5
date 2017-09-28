@@ -1,0 +1,47 @@
+
+
+#box
+{
+	width: 1000px;
+	height: 100px;
+	margin-top: 100px;
+	border: black solid 5px;
+	background-color: #66ff66;
+}
+
+#btn1_1
+{
+	margin-left: 50px;
+}
+
+#eyo
+{
+	position: relative;
+	top: 30px;
+	left: 580px;
+	padding: 5px;
+
+}
+
+#quest1, #quest2
+{	
+	padding: 10px;
+	top: 10px;
+}
+
+
+sple
+{
+	position: relative;
+	width: 400;
+	padding-right: 5px;
+	padding-left: 5px;
+	border: black 1px solid;
+	background-color: #ffccff;
+}
+
+body
+{
+	margin: auto;
+	max-width: 1000px;
+}
